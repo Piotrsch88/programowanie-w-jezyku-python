@@ -1,6 +1,8 @@
 # połączenie 2 list w jedną, usunięcie dupilkatów i podniesienie wszystkich elementów do 3 potęgi
-list1 = [1, 2, 3]
+list1 = [1, 3, 2, 3]
 list2 = [3, 5, 6]
 def check_number(list1: list, list2: list) -> list:
-    return list(dict.fromkeys(x**3 for x in list1 + list2))
+     return list(dict.fromkeys(x**3 for x in list1 + list2))
+
+
 print(check_number(list1, list2))
