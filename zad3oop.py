@@ -44,5 +44,5 @@ flat = Flat(55, 2, 420000, "Krakow, ul. Dluga 5", 3)
 
 # Wyswietlanie
 print(house)
-print()
+print(".......................................")
 print(flat)
