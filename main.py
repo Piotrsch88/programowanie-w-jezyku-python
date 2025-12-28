@@ -7,14 +7,42 @@ from magazine.Book import Book
 from magazine.Order import Order
 
 # ====== BIBLIOTEKI ======
-library1 = Library("Katowice", "Mariacka 10", "40-150", "07:00 - 17:00", "111-222-333")
-library2 = Library("Wrocław", "Zamkowa 2", "50-001", "08:00 - 19:00", "222-111-333")
+library1 = Library(
+    "Katowice",
+    "Mariacka 10",
+    "40-150",
+    "07:00 - 17:00",
+    "111-222-333",
+)
+library2 = Library(
+    "Wrocław",
+    "Zamkowa 2",
+    "50-001",
+    "08:00 - 19:00",
+    "222-111-333",
+)
 
 # ====== PRACOWNICY ======
-employee1 = Employee("Jan", "Kowalski", "2020-05-01", "1980-05-13",
-                     "Mysłowice", "Działkowa 1", "43-500", "000-001-000")
-employee2 = Employee("Jan", "Nowak", "2011-06-05", "1990-08-05",
-                     "Zabrze", "Roosevelta 5", "44-100", "000-005-001")
+employee1 = Employee(
+    "Jan",
+    "Kowalski",
+    "2020-05-01",
+    "1980-05-13",
+    "Mysłowice",
+    "Działkowa 1",
+    "43-500",
+    "000-001-000",
+)
+employee2 = Employee(
+    "Jan",
+    "Nowak",
+    "2011-06-05",
+    "1990-08-05",
+    "Zabrze",
+    "Roosevelta 5",
+    "44-100",
+    "000-005-001",
+)
 
 # ====== STUDENCI ======
 student1 = Student("Jan", "Mak", "S123")
@@ -32,4 +60,3 @@ order2 = Order(employee2, student2, [book3], date.today())
 # ====== WYŚWIETLENIE ======
 print(order1)
 print(order2)
-
