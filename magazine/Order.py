@@ -1,5 +1,6 @@
 from . import utils
 
+
 class Order:
     def __init__(self, order_number):
         self.order_number = order_number
