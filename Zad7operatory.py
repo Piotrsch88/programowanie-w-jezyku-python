@@ -35,7 +35,8 @@ class Brewery:
         return (
             f"Nazwa browaru: {self.name}\n"
             f"Typ: {self.brewery_type}\n"
-            f"Adres: {self.street}, {self.city}, {self.state}, {self.postal_code}\n"
+            f"Adres: {self.street}, {self.city}, "
+            f"{self.state}, {self.postal_code}\n"
             f"Kraj: {self.country}\n"
             f"Telefon: {self.phone}\n"
             f"Strona WWW: {self.website_url}\n"

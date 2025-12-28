@@ -8,6 +8,7 @@ class Student:
         return average > 50
 # Przykładowe obiekty klasy Student
 
+
 student1 = Student("Jan", [60, 70, 80])     # średnia = 70 → True
 student2 = Student("Anna", [30, 40, 50])    # średnia = 40 → False
 
